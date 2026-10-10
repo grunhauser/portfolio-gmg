@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Gustavo Martins Grunhauser · Software Developer"
+  },
+  "nav": {
+    "about": "About",
+    "techStack": "Skills",
+    "experience": "Quests",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "languageNames": {
+    "en": "English",
+    "it": "Italiano",
+    "pt": "Português"
+  },
+  "hero": {
+    "greeting": "A new adventurer appears!",
+    "classLabel": "Class",
+    "className": "Software Developer",
+    "level": "Lv. 10",
+    "stats": "Vue.js · JavaScript · Python · PHP · Docker",
+    "start": "Start",
+    "downloadCv": "Download CV",
+    "spriteAlt": "Pixel art knight holding a glowing sword",
+    "scrollHint": "Scroll to continue"
+  },
+  "about": {
+    "title": "About Me",
+    "speaker": "Gustavo",
+    "text": "Born in Brazil, now questing in Italy. I've been writing code since 2016 — building e-commerce platforms, webhooks, and backend integrations. I speak Portuguese natively, Italian at B2, and code fluently in English. EU long-term residence permit holder.",
+    "languagesTitle": "Languages",
+    "languages": {
+      "portuguese": "Portuguese",
+      "italian": "Italian",
+      "english": "English",
+      "spanish": "Spanish"
+    },
+    "levels": {
+      "native": "Native",
+      "b2": "B2",
+      "technical": "Technical",
+      "basic": "Basic"
+    }
+  },
+  "techStack": {
+    "title": "Inventory",
+    "subtitle": "Equipped skills",
+    "categories": {
+      "Frontend": "Frontend",
+      "Backend": "Backend",
+      "Database": "Database",
+      "DevOps & Tools": "DevOps & Tools"
+    }
+  },
+  "experience": {
+    "title": "Quest Log",
+    "completed": "Completed",
+    "current": "Latest",
+    "linx": {
+      "location": "Remote – Brazil / Italy",
+      "description": "Developed Vue.js and JavaScript features for e-commerce platforms. Built integrations with external APIs for pricing, availability, and product data. Created webhooks in JavaScript and Python. Participated in code reviews and implemented CI/CD pipelines with GitHub Actions and Docker."
+    },
+    "lancert": {
+      "location": "Brazil",
+      "description": "Provided IT support and consulting for Linux and Windows Server environments and network infrastructure. Developed custom web applications in PHP, JavaScript, HTML, and CSS. Handled system integrations and technical support for SMEs."
+    },
+    "logycware": {
+      "location": "Brazil",
+      "description": "Full stack development using ASPX, PHP, JavaScript, HTML, and CSS. Database management with Firebird and MySQL. Technical customer support and contribution to internal systems."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Legendary items (in the forge)",
+    "code": "Code",
+    "live": "Live",
+    "comingSoon": "Coming soon",
+    "p1": {
+      "title": "Project Alpha",
+      "description": "Coming soon… A Vue.js application currently being forged."
+    },
+    "p2": {
+      "title": "Project Beta",
+      "description": "Coming soon… A PHP and MySQL web application in development."
+    },
+    "p3": {
+      "title": "Project Gamma",
+      "description": "Coming soon… A containerized Python service with Docker."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "speaker": "Innkeeper",
+    "note": "Feel free to reach out — I'm actively looking for opportunities in Italy.",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "comingSoon": "coming soon"
+  },
+  "footer": {
+    "builtWith": "Built with React, TypeScript and Tailwind CSS.",
+    "rights": "All rights reserved."
+  }
+}
