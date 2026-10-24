@@ -1,33 +1,24 @@
 import type { Project } from '../types';
 
 /**
- * Portfolio projects (placeholder data).
+ * Portfolio projects, most relevant first.
  * To add a project: append an entry here and add its `title`/`description`
  * keys under `projects.<id>` in en.json, it.json and pt.json.
  */
 export const projects: Project[] = [
   {
-    id: 'p1',
-    titleKey: 'projects.p1.title',
-    descriptionKey: 'projects.p1.description',
-    tags: ['Vue.js', 'JavaScript'],
-    githubUrl: '#',
-    liveUrl: '#',
+    id: 'portfolio',
+    titleKey: 'projects.portfolio.title',
+    descriptionKey: 'projects.portfolio.description',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'i18next', 'GitHub Actions'],
+    githubUrl: 'https://github.com/grunhauser/portfolio-gmg',
+    liveUrl: 'https://grunhauser.github.io/portfolio-gmg/',
   },
   {
-    id: 'p2',
-    titleKey: 'projects.p2.title',
-    descriptionKey: 'projects.p2.description',
-    tags: ['PHP', 'MySQL'],
-    githubUrl: '#',
-    liveUrl: '#',
-  },
-  {
-    id: 'p3',
-    titleKey: 'projects.p3.title',
-    descriptionKey: 'projects.p3.description',
-    tags: ['Python', 'Docker'],
-    githubUrl: '#',
-    liveUrl: '#',
+    id: 'linxChallenge',
+    titleKey: 'projects.linxChallenge.title',
+    descriptionKey: 'projects.linxChallenge.description',
+    tags: ['JavaScript', 'HTML5', 'CSS3', 'REST API'],
+    githubUrl: 'https://github.com/grunhauser/linx-challenger',
   },
 ];

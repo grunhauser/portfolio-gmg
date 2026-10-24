@@ -2,3 +2,6 @@ node_modules
 dist
 .env
 .DS_Store
+# Declarations emitted by `tsc -b` for the Node-side configs
+vite.config.d.ts
+tailwind.config.d.ts

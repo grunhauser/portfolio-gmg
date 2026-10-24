@@ -34,7 +34,7 @@ npm run format    # format sources with Prettier
 ```
 portfolio-gmg/
 ├── .github/workflows/deploy.yml   # CI: build and publish to GitHub Pages
-├── public/                        # Static files copied as-is (favicon, cv.pdf)
+├── public/                        # Static files copied as-is (favicon)
 ├── src/
 │   ├── assets/flags/              # SVG flags used by the language selector
 │   ├── components/                # Shared UI (Navbar, PixelPanel, PixelKnight, Starfield…)

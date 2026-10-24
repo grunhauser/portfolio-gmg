@@ -29,10 +29,10 @@ export interface Project {
   /** i18n key of the translated description. */
   descriptionKey: string;
   tags: string[];
-  /** Repository URL. Use `'#'` while the project is not published. */
-  githubUrl: string;
-  /** Live demo URL. Use `'#'` while the project is not published. */
-  liveUrl: string;
+  /** Repository URL. Omit when the code is not public. */
+  githubUrl?: string;
+  /** Live demo URL. Omit when there is no demo online. */
+  liveUrl?: string;
 }
 
 /** A spoken language badge in the About section. */

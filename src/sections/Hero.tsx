@@ -3,9 +3,6 @@ import { PixelKnight } from '../components/PixelKnight';
 import { PixelPanel } from '../components/PixelPanel';
 import { useTypewriter } from '../hooks/useTypewriter';
 
-/** Path of the downloadable CV, resolved against the Vite base URL. */
-const CV_URL = `${import.meta.env.BASE_URL}cv.pdf`;
-
 /** Landing section: sprite, name, typewriter class label and call-to-action buttons. */
 export function Hero() {
   const { t } = useTranslation();
@@ -55,10 +52,6 @@ export function Hero() {
               <span className="text-gold group-hover:animate-blink">▶</span>
               {t('hero.start')}
             </button>
-            <a className="pixel-btn group" href={CV_URL} download>
-              <span className="text-gold group-hover:animate-blink">▶</span>
-              {t('hero.downloadCv')}
-            </a>
           </div>
         </PixelPanel>
       </div>

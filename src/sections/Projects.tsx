@@ -3,9 +3,6 @@ import { PixelPanel } from '../components/PixelPanel';
 import { SectionTitle } from '../components/SectionTitle';
 import { projects } from '../data/projects';
 
-/** Returns true when a URL is a real link rather than a `#` placeholder. */
-const isRealUrl = (url: string): boolean => url !== '' && url !== '#';
-
 /** Project showcase rendered as RPG inventory item cards. */
 export function Projects() {
   const { t } = useTranslation();
@@ -37,8 +34,12 @@ export function Projects() {
                   ))}
                 </ul>
                 <div className="mt-5 flex gap-4 font-pixel text-[0.6rem]">
-                  <ProjectLink url={project.githubUrl} label={t('projects.code')} />
-                  <ProjectLink url={project.liveUrl} label={t('projects.live')} />
+                  {project.githubUrl && (
+                    <ProjectLink url={project.githubUrl} label={t('projects.code')} />
+                  )}
+                  {project.liveUrl && (
+                    <ProjectLink url={project.liveUrl} label={t('projects.live')} />
+                  )}
                 </div>
               </PixelPanel>
             </li>
@@ -49,16 +50,8 @@ export function Projects() {
   );
 }
 
-/** Link that renders as disabled text while its URL is still a placeholder. */
+/** External link to a project's code or live demo. */
 function ProjectLink({ url, label }: { url: string; label: string }) {
-  const { t } = useTranslation();
-  if (!isRealUrl(url)) {
-    return (
-      <span className="cursor-not-allowed text-text/30" title={t('projects.comingSoon')}>
-        ▷ {label}
-      </span>
-    );
-  }
   return (
     <a href={url} target="_blank" rel="noopener noreferrer" className="text-gold hover:text-ice">
       ▶ {label}

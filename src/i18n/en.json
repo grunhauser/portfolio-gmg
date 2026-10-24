@@ -76,21 +76,16 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "Legendary items (in the forge)",
+    "subtitle": "Items in the inventory",
     "code": "Code",
     "live": "Live",
-    "comingSoon": "Coming soon",
-    "p1": {
-      "title": "Project Alpha",
-      "description": "Coming soon… A Vue.js application currently being forged."
+    "portfolio": {
+      "title": "This portfolio",
+      "description": "Single-page portfolio in React, TypeScript and Tailwind CSS, with English, Italian and Portuguese translations (i18next). Built and published to GitHub Pages by a GitHub Actions workflow."
     },
-    "p2": {
-      "title": "Project Beta",
-      "description": "Coming soon… A PHP and MySQL web application in development."
-    },
-    "p3": {
-      "title": "Project Gamma",
-      "description": "Coming soon… A containerized Python service with Docker."
+    "linxChallenge": {
+      "title": "Linx front-end challenge (2021)",
+      "description": "Front-end challenge from the Linx hiring process: a responsive product showcase in plain JavaScript, HTML and CSS that loads products from a paginated REST API and keeps the extra results in memory to avoid unnecessary requests. The original demo is no longer online."
     }
   },
   "contact": {
@@ -99,8 +94,7 @@
     "note": "Feel free to reach out — I'm actively looking for opportunities in Italy.",
     "email": "Email",
     "github": "GitHub",
-    "linkedin": "LinkedIn",
-    "comingSoon": "coming soon"
+    "linkedin": "LinkedIn"
   },
   "footer": {
     "builtWith": "Built with React, TypeScript and Tailwind CSS.",
