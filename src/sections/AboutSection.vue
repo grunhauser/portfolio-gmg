@@ -1,10 +1,16 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import SectionHeading from '../components/SectionHeading.vue';
 import { spokenLanguages } from '../data/profile';
 
-/** Short bio, spoken languages with honest levels, and education. */
-const { t } = useI18n();
+/** Short bio in my own words, spoken languages with honest levels, and education. */
+const { t, tm, rt } = useI18n();
+
+/** Bio paragraphs. Same `tm` + `rt` pattern as the experience highlights. */
+const paragraphs = computed(() =>
+  (tm('about.paragraphs') as unknown[]).map((item) => rt(item as Parameters<typeof rt>[0])),
+);
 </script>
 
 <template>
@@ -13,7 +19,9 @@ const { t } = useI18n();
       <SectionHeading path="about" heading-id="about-title" :title="t('about.title')" />
 
       <div class="about">
-        <p class="about__text">{{ t('about.text') }}</p>
+        <div class="about__text">
+          <p v-for="(paragraph, index) in paragraphs" :key="index">{{ paragraph }}</p>
+        </div>
 
         <dl class="about__facts">
           <div>
@@ -47,6 +55,15 @@ const { t } = useI18n();
   max-width: 40rem;
   font-size: var(--text-lg);
   line-height: 1.7;
+}
+
+.about__text p + p {
+  margin-top: var(--space-4);
+}
+
+/* The story opens the section; the rest reads a step quieter. */
+.about__text p:not(:first-child) {
+  color: var(--color-text-muted);
 }
 
 .about__facts {

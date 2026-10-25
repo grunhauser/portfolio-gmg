@@ -46,7 +46,11 @@
   },
   "about": {
     "title": "Sobre mim",
-    "text": "Escrevo código desde 2016: primeiro software web sob medida em PHP e JavaScript, depois front-ends de e-commerce na Linx. Mudei do Brasil para a Itália, onde moro com permissão de residência UE de longa duração. Agora estou atualizando meu stack com TypeScript e Vue 3, e este site faz parte disso.",
+    "paragraphs": [
+      "Cresci no meio de computadores: meu pai foi programador COBOL e teve um dos primeiros provedores de internet do Rio Grande do Sul. Entrei na minha primeira aula de programação semanas atrasado, aprendi o básico sozinho em casa e tirei nota máxima na primeira prova. O professor achou que eu tinha colado, me colocou para sentar sozinho na prova seguinte, e tirei nota máxima de novo.",
+      "Ainda trabalho do mesmo jeito: parto do problema real, resolvo com o mínimo de código necessário e deixo simples o bastante para qualquer pessoa do time ler. Foi assim que, em quase cinco anos na Linx, passei de júnior a pleno.",
+      "Mudei para a Itália para ficar perto da minha família, onde moro com permissão de residência UE de longa duração, e continuei trabalhando remoto. Em 2026 saí da Linx para me estabelecer aqui e aprender italiano de verdade. Agora voltei a construir e procuro um time onde eu possa ser útil e continuar aprendendo."
+    ],
     "languagesTitle": "Idiomas",
     "languages": {
       "portuguese": {

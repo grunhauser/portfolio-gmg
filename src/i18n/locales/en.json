@@ -46,7 +46,11 @@
   },
   "about": {
     "title": "About me",
-    "text": "I have been writing code since 2016: first custom web software in PHP and JavaScript, then e-commerce front-ends at Linx. I moved from Brazil to Italy, where I live with an EU long-term residence permit. Now I am updating my stack with TypeScript and Vue 3, and this site is part of that.",
+    "paragraphs": [
+      "I grew up around computers: my father was a COBOL programmer and ran one of the first internet providers in Rio Grande do Sul. I joined my first programming class weeks late, learned the basics alone at home and scored full marks on the first test. The teacher thought I had copied, sat me alone for the next one, and I scored full marks again.",
+      "I still work the same way: I start from the real problem, solve it with the least code it needs, and keep it simple enough for anyone on the team to read. That is how I grew from junior to mid-level in almost five years at Linx.",
+      "I moved to Italy to be close to my family, where I live with an EU long-term residence permit, and kept working remotely. In 2026 I left Linx to settle here and learn Italian properly. Now I am back to building, and looking for a team where I can be useful and keep learning."
+    ],
     "languagesTitle": "Languages",
     "languages": {
       "portuguese": {
