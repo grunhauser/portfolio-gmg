@@ -32,7 +32,7 @@ export interface Project {
   stack: string[];
   /** Public repository. Omit when the code is not public. */
   repoUrl?: string;
-  /** Live version. Omit when nothing is online. */
+  /** Live version. Omit when nothing is online or the site should stay private (screenshots instead). */
   liveUrl?: string;
   /** True when the source code is private; the card says so instead of linking to it. */
   privateCode?: boolean;
