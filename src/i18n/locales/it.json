@@ -150,7 +150,23 @@
       "noDescription": "Nessuna descrizione.",
       "stars": "stelle"
     },
-    "privateCode": "Codice privato"
+    "privateCode": "Codice privato",
+    "screens": {
+      "virgitCalendar": "Settimana dell'insegnante: lezioni, richieste degli studenti da approvare e giorni di assenza.",
+      "virgitAssistant": "Assistente IA: risponde sulle lezioni e prepara azioni che l'insegnante conferma.",
+      "virgitMobile": "Vista giorno sul telefono.",
+      "hubLifeHome": "Schermata Oggi: prossimo passo, calorie rimaste, acqua e passi.",
+      "hubLifeFood": "Diario alimentare con macro; un pasto si può aggiungere anche da una foto.",
+      "hubLifeAssistant": "Assistente: registra acqua, cibo e spesa da testo o voce."
+    },
+    "viewer": {
+      "open": "Vedi le schermate",
+      "demoData": "Schermate con dati di prova.",
+      "close": "Chiudi",
+      "previous": "Schermata precedente",
+      "next": "Schermata successiva",
+      "counter": "{current} di {total}"
+    }
   },
   "workflow": {
     "title": "Come lavoro",

@@ -36,6 +36,17 @@ export interface Project {
   liveUrl?: string;
   /** True when the source code is private; the card says so instead of linking to it. */
   privateCode?: boolean;
+  /** Screenshots, first one is the cover. Captions live under `projects.screens.<id>`. */
+  screens?: ProjectScreen[];
+}
+
+/** One screenshot of a project, stored in `public/work/`. */
+export interface ProjectScreen {
+  id: string;
+  /** File name inside `public/work/`. */
+  file: string;
+  /** Phone-sized image, shown narrower so it is not blown up. */
+  mobile?: boolean;
 }
 
 /** A spoken language. Name and level live under `about.languages.<id>`. */
