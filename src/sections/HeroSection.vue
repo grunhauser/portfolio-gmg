@@ -71,10 +71,24 @@ const profileLinks = contactChannels.filter((channel) => channel.id !== 'email')
 
 <style scoped>
 .hero {
+  position: relative;
+  overflow: hidden;
   padding-block: var(--space-16) var(--space-24);
 }
 
+/* Two soft glows (coral behind the JSON panel, blue on the left) give the first screen depth. */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(38rem circle at 85% 30%, rgb(255 122 89 / 0.22), transparent 70%),
+    radial-gradient(30rem circle at 0% 55%, rgb(138 180 255 / 0.08), transparent 70%);
+  pointer-events: none;
+}
+
 .hero__grid {
+  position: relative;
   display: grid;
   gap: var(--space-12);
   align-items: center;
@@ -121,6 +135,18 @@ const profileLinks = contactChannels.filter((channel) => channel.id !== 'email')
   height: 0.5rem;
   border-radius: 50%;
   background: var(--color-success);
+  animation: pulse 2.4s ease-out infinite;
+}
+
+/* The green "available" dot sends out a slow ring, like a status light. */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(91 214 155 / 0.6);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 0.5rem rgb(91 214 155 / 0);
+  }
 }
 
 .hero__actions {
@@ -142,8 +168,10 @@ const profileLinks = contactChannels.filter((channel) => channel.id !== 'email')
   margin: 0;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  background: var(--color-surface);
+  background: color-mix(in srgb, var(--color-surface) 85%, transparent);
+  backdrop-filter: blur(6px);
   overflow: hidden;
+  box-shadow: 0 24px 64px -24px rgb(0 0 0 / 0.6);
 }
 
 .hero__panel-bar {

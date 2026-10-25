@@ -26,7 +26,7 @@ const items = computed<WorkflowItem[]>(() =>
       <SectionHeading path="workflow" heading-id="workflow-title" :title="t('workflow.title')" />
 
       <ol class="workflow">
-        <li v-for="(item, index) in items" :key="item.title" class="workflow__item">
+        <li v-for="(item, index) in items" :key="item.title" v-spotlight class="workflow__item">
           <span class="workflow__number" aria-hidden="true">{{
             String(index + 1).padStart(2, '0')
           }}</span>
@@ -43,13 +43,22 @@ const items = computed<WorkflowItem[]>(() =>
 <style scoped>
 .workflow {
   display: grid;
-  gap: var(--space-8);
+  gap: var(--space-5);
 }
 
 .workflow__item {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: var(--space-4);
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  transition: border-color var(--duration-base);
+}
+
+.workflow__item:hover {
+  border-color: var(--color-border-strong);
 }
 
 .workflow__number {
