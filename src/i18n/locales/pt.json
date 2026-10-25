@@ -83,9 +83,10 @@
         "highlights": [
           "Desenvolvimento front-end (Vue.js, JavaScript) de vitrines personalizadas e busca integradas aos sites de grandes varejistas de e-commerce no Brasil.",
           "Integração do produto Ads nos sites dos clientes durante a migração do Ads para dentro da plataforma Impulse.",
+          "Documentação para desenvolvedores em Swagger das APIs de Ads e do SDK de metadata.",
           "Verificação de métricas no MongoDB e debug de chamadas de API (aba Network do navegador) para garantir que os dados estavam corretos.",
           "Único desenvolvedor front-end com permissão de escrita no parser central do catálogo de produtos, onde fiz alterações.",
-          "Webhooks em JavaScript e Python; code review; pipelines de CI/CD com GitHub Actions e Docker."
+          "Webhooks em JavaScript; code review; pipelines de CI/CD com GitHub Actions e Docker."
         ]
       },
       "lancert": {

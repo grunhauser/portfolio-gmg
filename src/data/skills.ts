@@ -10,6 +10,7 @@ export const skillGroups: SkillGroup[] = [
       'SOAP',
       'Webhooks',
       'JWT authentication',
+      'Swagger / OpenAPI',
       'Google Maps API',
       'Node.js + Express (basic)',
     ],
