@@ -11,7 +11,6 @@ export const projects: Project[] = [
     id: 'virgit',
     year: 2026,
     stack: ['React', 'TypeScript', 'Supabase', 'LLM API', 'Netlify'],
-    liveUrl: 'https://virgit.netlify.app/',
     privateCode: true,
     screens: [
       { id: 'virgitCalendar', file: 'virgit-calendar.webp' },
