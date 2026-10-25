@@ -18,7 +18,7 @@ export const jobs: Job[] = [
   {
     id: 'logycware',
     company: 'Logycware',
-    start: '2016-01',
-    end: '2017-12',
+    start: '2016-05',
+    end: '2017-11',
   },
 ];

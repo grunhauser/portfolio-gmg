@@ -39,7 +39,7 @@
     "eyebrow": "Front-end developer · Piedmont, Italy",
     "headline": "I build e-commerce front-ends and connect them to the APIs behind them.",
     "summary": "Almost five years at Linx with Vue.js and JavaScript, integrating search, personalized product showcases and ads into the websites of large retailers in Brazil.",
-    "availability": "Open to hybrid roles in Piedmont and Lombardy, or remote within Europe.",
+    "availability": "Open to on-site or hybrid roles around Turin, Alessandria and Milan, remote roles, and relocation for the right position.",
     "primaryAction": "Get in touch",
     "secondaryAction": "See projects"
   },
@@ -66,7 +66,7 @@
       }
     },
     "educationTitle": "Education",
-    "education": "IT Technician, University of Santa Cruz do Sul (UNISC), 2016 – 2018"
+    "education": "IT Technician, University of Santa Cruz do Sul (UNISC), 2015 – 2016"
   },
   "experience": {
     "title": "Experience",
@@ -84,21 +84,23 @@
         ]
       },
       "lancert": {
-        "role": "IT Field Technician & Developer",
+        "role": "Co-owner · Web Developer & IT Technician",
         "location": "Brazil",
         "highlights": [
-          "IT support and consulting for Linux, Windows Server and networks.",
-          "Custom web software in PHP, JavaScript, HTML and CSS.",
-          "Integrations between client systems."
+          "Websites for small and medium businesses in JavaScript, HTML and CSS, including a passenger transport company and an outdoor advertising company.",
+          "PHP contact form sending email over SMTP, so quote requests arrived from the site.",
+          "Startup scripts for thin clients in an accounting office: the management software opens automatically, admin access protected by password.",
+          "IT support and consulting for Linux, Windows Server and company networks."
         ]
       },
       "logycware": {
-        "role": "Full Stack Developer (internship)",
+        "role": "Web Developer (internship)",
         "location": "Brazil",
         "highlights": [
-          "Full stack work with ASPX, PHP and JavaScript.",
-          "Data in Firebird and MySQL databases.",
-          "Technical support for customers."
+          "National marketplace for outdoor advertising (OOH) spaces: search by region and contact with sellers. Firebird data with multi-JOIN SQL queries and stored procedures.",
+          "Google Maps API integration: markers and a heat map showing the number of spots on hover.",
+          "Course sales site for a training institute, with a SOAP integration to the Brazilian postal service (Correios) web service for shipping options (PHP, MySQL).",
+          "Maintenance of a legacy ASP.NET (ASPX) e-commerce with table-based layout and some PHP."
         ]
       }
     }
