@@ -18,7 +18,7 @@ export const skillGroups: SkillGroup[] = [
   { id: 'data', items: ['SQL (MySQL, Firebird)', 'MongoDB'] },
   {
     id: 'tooling',
-    items: ['Git', 'GitHub Actions', 'Docker', 'npm', 'Linux', 'Python (scripting)'],
+    items: ['Git', 'GitHub Actions', 'Docker', 'npm', 'Postman', 'Linux', 'Python (scripting)'],
   },
   { id: 'updating', items: ['TypeScript', 'Vue 3 Composition API', 'React'] },
 ];
