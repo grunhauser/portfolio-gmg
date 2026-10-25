@@ -144,16 +144,16 @@
     "title": "Como trabalho",
     "items": [
       {
-        "title": "Assistido por IA, revisado por mim",
-        "text": "Uso assistentes de IA como o Claude todos os dias para pesquisar, prototipar e depurar. Leio o que eles propõem, testo e só entrego código que sei explicar."
-      },
-      {
         "title": "Integração em primeiro lugar",
         "text": "Boa parte da minha carreira foi fazer um produto funcionar dentro do site de outra empresa. Começo pelo contrato da API e pela aba Network do navegador."
       },
       {
         "title": "Aprender construindo",
         "text": "Estou desenvolvendo um RPG 2D em Unity e C#, uma área que era nova para mim, para continuar aprendendo ferramentas novas rápido."
+      },
+      {
+        "title": "Revisado, testado, explicado",
+        "text": "Uso documentação, ferramentas de desenvolvedor do navegador e assistentes de IA para pesquisar e depurar mais rápido. Reviso e testo tudo, e só entrego código que sei explicar."
       }
     ]
   },

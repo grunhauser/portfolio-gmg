@@ -144,16 +144,16 @@
     "title": "How I work",
     "items": [
       {
-        "title": "AI-assisted, human-reviewed",
-        "text": "I use AI assistants such as Claude every day to research, prototype and debug. I read what they propose, test it, and only ship code I can explain."
-      },
-      {
         "title": "Integration first",
         "text": "Most of my career was making a product work inside someone else's website. I start from the API contract and the browser network tab."
       },
       {
         "title": "Learning by building",
         "text": "I am building a 2D RPG in Unity and C#, a field that was new to me, to keep learning new tools quickly."
+      },
+      {
+        "title": "Reviewed, tested, explained",
+        "text": "I use documentation, browser dev tools and AI assistants to research and debug faster. I review and test everything, and only ship code I can explain."
       }
     ]
   },
