@@ -83,9 +83,10 @@
         "highlights": [
           "Built front-end features in Vue.js and JavaScript for search and personalized product showcases embedded in the websites of large e-commerce retailers in Brazil.",
           "Integrated the Ads product into client websites while Ads was being migrated into the Impulse platform.",
+          "Wrote developer documentation in Swagger for the Ads APIs and the metadata SDK.",
           "Checked metrics in MongoDB and debugged API calls with the browser network tools to make sure the data was correct.",
           "The only front-end developer with write access to the central product-catalog parser, where I made changes.",
-          "Webhooks in JavaScript and Python, code review, and CI/CD pipelines with GitHub Actions and Docker."
+          "Webhooks in JavaScript, code review, and CI/CD pipelines with GitHub Actions and Docker."
         ]
       },
       "lancert": {
