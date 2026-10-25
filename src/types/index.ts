@@ -26,7 +26,7 @@ export interface SkillGroup {
 
 /** A portfolio project. Title and description live under `projects.items.<id>`. */
 export interface Project {
-  id: 'virgit' | 'hubVida' | 'portfolio' | 'linxChallenge';
+  id: 'virgit' | 'hubLife' | 'portfolio' | 'linxChallenge';
   /** Year the project was made, shown next to the title. */
   year: number;
   stack: string[];

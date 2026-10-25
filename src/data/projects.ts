@@ -14,7 +14,7 @@ export const projects: Project[] = [
     privateCode: true,
   },
   {
-    id: 'hubVida',
+    id: 'hubLife',
     year: 2026,
     stack: ['React', 'TypeScript', 'Supabase', 'Gemini API', 'Vercel'],
     liveUrl: 'https://hub-life-vert.vercel.app/',

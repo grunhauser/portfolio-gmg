@@ -123,9 +123,9 @@
         "title": "VirgIT · plataforma de aulas",
         "description": "Web app feito para uma professora particular de italiano e os alunos dela: agenda de aulas com remarcação arrastando e aulas recorrentes, pedidos de aula limitados pelas regras de disponibilidade dela, convite de alunos, tarefas com correção, materiais privados, chat, avisos internos e revisão de vocabulário com repetição espaçada."
       },
-      "hubVida": {
-        "title": "Hub Vida",
-        "description": "Organizador pessoal para o dia a dia (listas, contas do mês e refeições) com recursos de IA usando a API do Gemini."
+      "hubLife": {
+        "title": "Hub Life · painel pessoal",
+        "description": "O app que eu uso todo dia para organizar a minha rotina. Ele sincroniza passos, água e sono do meu relógio (Samsung Health) e o peso de uma balança inteligente, e atualiza as minhas metas diárias. A API do Gemini calcula calorias e macros a partir de fotos das refeições e transforma áudios em registros, incluindo os gastos do mês em euro e em real. O Supabase guarda só os últimos 90 dias; os dados mais antigos são arquivados como arquivos num repositório do GitHub."
       },
       "portfolio": {
         "title": "Este portfólio",
