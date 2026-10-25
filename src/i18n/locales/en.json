@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Gustavo Martins Grunhauser · Front-end Developer"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "skipToContent": "Skip to content",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "workflow": "How I work",
+    "contact": "Contact"
+  },
+  "language": {
+    "label": "Language",
+    "names": {
+      "en": "English",
+      "it": "Italiano",
+      "pt": "Português"
+    }
+  },
+  "palette": {
+    "open": "Open command menu",
+    "title": "Command menu",
+    "placeholder": "Type a command or search…",
+    "empty": "No matching command.",
+    "hint": "Use ↑ ↓ to move, Enter to run, Esc to close.",
+    "groups": {
+      "navigate": "Go to",
+      "language": "Language",
+      "actions": "Actions"
+    },
+    "copyEmail": "Copy email address",
+    "openGithub": "Open GitHub profile",
+    "openLinkedin": "Open LinkedIn profile"
+  },
+  "hero": {
+    "eyebrow": "Front-end developer · Piedmont, Italy",
+    "headline": "I build e-commerce front-ends and connect them to the APIs behind them.",
+    "summary": "Almost five years at Linx with Vue.js and JavaScript, integrating search, personalized product showcases and ads into the websites of large retailers in Brazil.",
+    "availability": "Open to hybrid roles in Piedmont and Lombardy, or remote within Europe.",
+    "primaryAction": "Get in touch",
+    "secondaryAction": "See projects"
+  },
+  "about": {
+    "title": "About me",
+    "text": "I have been writing code since 2016: first custom web software in PHP and JavaScript, then e-commerce front-ends at Linx. I moved from Brazil to Italy, where I live with an EU long-term residence permit. Now I am updating my stack with TypeScript and Vue 3, and this site is part of that.",
+    "languagesTitle": "Languages",
+    "languages": {
+      "portuguese": {
+        "name": "Portuguese",
+        "level": "Native"
+      },
+      "italian": {
+        "name": "Italian",
+        "level": "B2"
+      },
+      "english": {
+        "name": "English",
+        "level": "A2 · reads technical docs comfortably"
+      },
+      "spanish": {
+        "name": "Spanish",
+        "level": "Basic"
+      }
+    },
+    "educationTitle": "Education",
+    "education": "IT Technician, University of Santa Cruz do Sul (UNISC), 2016 – 2018"
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "present",
+    "items": {
+      "linx": {
+        "role": "Front-end Developer, Integration team (junior → mid-level)",
+        "location": "Remote",
+        "highlights": [
+          "Built front-end features in Vue.js and JavaScript for search and personalized product showcases embedded in the websites of large e-commerce retailers in Brazil.",
+          "Integrated the Ads product into client websites while Ads was being migrated into the Impulse platform.",
+          "Checked metrics in MongoDB and debugged API calls with the browser network tools to make sure the data was correct.",
+          "The only front-end developer with write access to the central product-catalog parser, where I made changes.",
+          "Webhooks in JavaScript and Python, code review, and CI/CD pipelines with GitHub Actions and Docker."
+        ]
+      },
+      "lancert": {
+        "role": "IT Field Technician & Developer",
+        "location": "Brazil",
+        "highlights": [
+          "IT support and consulting for Linux, Windows Server and networks.",
+          "Custom web software in PHP, JavaScript, HTML and CSS.",
+          "Integrations between client systems."
+        ]
+      },
+      "logycware": {
+        "role": "Full Stack Developer (internship)",
+        "location": "Brazil",
+        "highlights": [
+          "Full stack work with ASPX, PHP and JavaScript.",
+          "Data in Firebird and MySQL databases.",
+          "Technical support for customers."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": {
+      "frontend": "Front-end",
+      "integration": "Integration & back-end",
+      "data": "Data",
+      "tooling": "Tooling & delivery",
+      "updating": "Currently updating"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "featured": "Featured",
+    "code": "Code",
+    "live": "Live",
+    "items": {
+      "portfolio": {
+        "title": "This portfolio",
+        "description": "Single-page site in Vue 3 and TypeScript, translated into English, Italian and Portuguese with vue-i18n. The repository list below is loaded live from the GitHub REST API. Built and deployed to GitHub Pages by GitHub Actions."
+      },
+      "linxChallenge": {
+        "title": "Linx front-end challenge",
+        "description": "Hiring challenge from Linx: a responsive product showcase in plain JavaScript, HTML and CSS that loads products from a paginated REST API and keeps the extra results in memory to avoid unnecessary requests. The original demo is no longer online."
+      }
+    },
+    "github": {
+      "title": "Live from GitHub",
+      "description": "My public repositories, fetched from the GitHub REST API when you open this section.",
+      "loading": "Loading repositories…",
+      "error": "Could not reach the GitHub API. It may be rate limited; try again in a minute.",
+      "retry": "Try again",
+      "empty": "No public repositories yet.",
+      "updated": "Updated",
+      "noDescription": "No description.",
+      "stars": "stars"
+    }
+  },
+  "workflow": {
+    "title": "How I work",
+    "items": [
+      {
+        "title": "Integration first",
+        "text": "Most of my career was making a product work inside someone else's website. I start from the API contract and the browser network tab."
+      },
+      {
+        "title": "Learning by building",
+        "text": "I am building a 2D RPG in Unity and C#, a field that was new to me, to keep learning new tools quickly."
+      },
+      {
+        "title": "Reviewed, tested, explained",
+        "text": "I use documentation, browser dev tools and AI assistants to research and debug faster. I review and test everything, and only ship code I can explain."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "The quickest way to reach me is email.",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFailed": "Copy failed",
+    "channels": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "builtWith": "Built with Vue 3, TypeScript and Vite.",
+    "source": "Source code"
+  }
+}

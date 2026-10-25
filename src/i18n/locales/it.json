@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Gustavo Martins Grunhauser · Sviluppatore Front-end"
+  },
+  "nav": {
+    "label": "Navigazione principale",
+    "skipToContent": "Vai al contenuto",
+    "about": "Chi sono",
+    "experience": "Esperienza",
+    "skills": "Competenze",
+    "projects": "Progetti",
+    "workflow": "Come lavoro",
+    "contact": "Contatti"
+  },
+  "language": {
+    "label": "Lingua",
+    "names": {
+      "en": "English",
+      "it": "Italiano",
+      "pt": "Português"
+    }
+  },
+  "palette": {
+    "open": "Apri il menu dei comandi",
+    "title": "Menu dei comandi",
+    "placeholder": "Scrivi un comando o cerca…",
+    "empty": "Nessun comando trovato.",
+    "hint": "Usa ↑ ↓ per spostarti, Invio per eseguire, Esc per chiudere.",
+    "groups": {
+      "navigate": "Vai a",
+      "language": "Lingua",
+      "actions": "Azioni"
+    },
+    "copyEmail": "Copia l'indirizzo email",
+    "openGithub": "Apri il profilo GitHub",
+    "openLinkedin": "Apri il profilo LinkedIn"
+  },
+  "hero": {
+    "eyebrow": "Sviluppatore front-end · Piemonte, Italia",
+    "headline": "Sviluppo front-end per l'e-commerce e li collego alle API che li alimentano.",
+    "summary": "Quasi cinque anni in Linx con Vue.js e JavaScript, integrando motore di ricerca, vetrine personalizzate e ads nei siti di grandi retailer in Brasile.",
+    "availability": "Disponibile per ruoli ibridi in Piemonte e Lombardia, o da remoto in Europa.",
+    "primaryAction": "Contattami",
+    "secondaryAction": "Vedi i progetti"
+  },
+  "about": {
+    "title": "Chi sono",
+    "text": "Scrivo codice dal 2016: prima software web su misura in PHP e JavaScript, poi front-end per l'e-commerce in Linx. Mi sono trasferito dal Brasile in Italia, dove vivo con un permesso di soggiorno UE di lungo periodo. Ora sto aggiornando il mio stack con TypeScript e Vue 3, e questo sito ne fa parte.",
+    "languagesTitle": "Lingue",
+    "languages": {
+      "portuguese": {
+        "name": "Portoghese",
+        "level": "Madrelingua"
+      },
+      "italian": {
+        "name": "Italiano",
+        "level": "B2"
+      },
+      "english": {
+        "name": "Inglese",
+        "level": "A2 · leggo bene la documentazione tecnica"
+      },
+      "spanish": {
+        "name": "Spagnolo",
+        "level": "Base"
+      }
+    },
+    "educationTitle": "Formazione",
+    "education": "Tecnico informatico, Università di Santa Cruz do Sul (UNISC), 2016 – 2018"
+  },
+  "experience": {
+    "title": "Esperienza",
+    "present": "oggi",
+    "items": {
+      "linx": {
+        "role": "Sviluppatore Front-end, team Integrazione (junior → mid-level)",
+        "location": "Da remoto",
+        "highlights": [
+          "Sviluppo front-end (Vue.js, JavaScript) di vetrine personalizzate e motore di ricerca integrati nei siti di grandi retailer e-commerce in Brasile.",
+          "Integrazione del prodotto Ads nei siti dei clienti durante la migrazione di Ads all'interno della piattaforma Impulse.",
+          "Verifica delle metriche su MongoDB e debug delle chiamate API (strumenti di rete del browser) per garantire la correttezza dei dati.",
+          "Unico sviluppatore front-end con accesso in scrittura al parser centrale del catalogo prodotti, dove ho apportato modifiche.",
+          "Webhook in JavaScript e Python; code review; pipeline CI/CD con GitHub Actions e Docker."
+        ]
+      },
+      "lancert": {
+        "role": "Tecnico IT e sviluppatore",
+        "location": "Brasile",
+        "highlights": [
+          "Supporto e consulenza IT per Linux, Windows Server e reti.",
+          "Software web su misura in PHP, JavaScript, HTML e CSS.",
+          "Integrazioni tra i sistemi dei clienti."
+        ]
+      },
+      "logycware": {
+        "role": "Sviluppatore full stack (stage)",
+        "location": "Brasile",
+        "highlights": [
+          "Sviluppo full stack con ASPX, PHP e JavaScript.",
+          "Dati su database Firebird e MySQL.",
+          "Supporto tecnico ai clienti."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Competenze",
+    "groups": {
+      "frontend": "Front-end",
+      "integration": "Integrazione e back-end",
+      "data": "Dati",
+      "tooling": "Strumenti e rilascio",
+      "updating": "In aggiornamento"
+    }
+  },
+  "projects": {
+    "title": "Progetti",
+    "featured": "In evidenza",
+    "code": "Codice",
+    "live": "Online",
+    "items": {
+      "portfolio": {
+        "title": "Questo portfolio",
+        "description": "Sito a pagina singola in Vue 3 e TypeScript, tradotto in inglese, italiano e portoghese con vue-i18n. L'elenco dei repository qui sotto è caricato in tempo reale dall'API REST di GitHub. Build e pubblicazione su GitHub Pages con GitHub Actions."
+      },
+      "linxChallenge": {
+        "title": "Sfida front-end Linx",
+        "description": "Sfida del processo di selezione Linx: una vetrina prodotti responsive in JavaScript, HTML e CSS puri che carica i prodotti da un'API REST paginata e tiene in memoria i risultati in più per evitare richieste inutili. La demo originale non è più online."
+      }
+    },
+    "github": {
+      "title": "In tempo reale da GitHub",
+      "description": "I miei repository pubblici, caricati dall'API REST di GitHub quando apri questa sezione.",
+      "loading": "Caricamento dei repository…",
+      "error": "Impossibile raggiungere l'API di GitHub. Potrebbe esserci un limite di richieste; riprova tra un minuto.",
+      "retry": "Riprova",
+      "empty": "Ancora nessun repository pubblico.",
+      "updated": "Aggiornato",
+      "noDescription": "Nessuna descrizione.",
+      "stars": "stelle"
+    }
+  },
+  "workflow": {
+    "title": "Come lavoro",
+    "items": [
+      {
+        "title": "Prima l'integrazione",
+        "text": "Gran parte della mia carriera è stata far funzionare un prodotto dentro il sito di qualcun altro. Parto dal contratto dell'API e dalla scheda Rete del browser."
+      },
+      {
+        "title": "Imparare costruendo",
+        "text": "Sto sviluppando un RPG 2D in Unity e C#, un campo per me nuovo, per continuare a imparare in fretta strumenti nuovi."
+      },
+      {
+        "title": "Rivisto, testato, spiegato",
+        "text": "Uso documentazione, strumenti di sviluppo del browser e assistenti IA per ricercare e fare debug più in fretta. Rivedo e provo tutto, e rilascio solo codice che so spiegare."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contatti",
+    "text": "Il modo più rapido per contattarmi è l'email.",
+    "copy": "Copia",
+    "copied": "Copiato",
+    "copyFailed": "Copia non riuscita",
+    "channels": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "builtWith": "Realizzato con Vue 3, TypeScript e Vite.",
+    "source": "Codice sorgente"
+  }
+}
