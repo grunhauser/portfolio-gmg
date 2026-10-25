@@ -1,44 +1,51 @@
-/** Supported UI languages. */
-export type Language = 'en' | 'it' | 'pt';
+/** Locales the site is translated into. */
+export type Locale = 'en' | 'it' | 'pt';
 
-/** A group of skills displayed as one inventory tab. */
-export interface TechCategory {
-  /** Category label (also used as i18n key suffix under `techStack.categories`). */
-  category: string;
-  /** Skill names shown in the inventory slots. */
-  skills: string[];
-}
+/** Ids of the page sections, used both as anchors and as i18n keys under `nav`. */
+export type SectionId = 'about' | 'experience' | 'skills' | 'projects' | 'workflow' | 'contact';
 
-/** A professional experience entry rendered in the quest log. */
-export interface Experience {
-  id: string;
+/** A job in the experience timeline. Translated text lives under `experience.items.<id>`. */
+export interface Job {
+  /** Key under `experience.items` in the locale files. */
+  id: 'linx' | 'lancert' | 'logycware';
   company: string;
-  role: string;
-  period: string;
-  /** i18n key of the translated location string. */
-  locationKey: string;
-  /** i18n key of the translated description string. */
-  descriptionKey: string;
+  /** Product or division inside the company, when relevant. */
+  team?: string;
+  /** Start month as `YYYY-MM`. */
+  start: string;
+  /** End month as `YYYY-MM`. */
+  end: string;
 }
 
-/** A portfolio project rendered as an inventory card. */
+/** A row of the skills list. The label lives under `skills.groups.<id>`. */
+export interface SkillGroup {
+  id: 'frontend' | 'integration' | 'data' | 'tooling' | 'updating';
+  /** Technology names. They are proper nouns, so they are not translated. */
+  items: string[];
+}
+
+/** A portfolio project. Title and description live under `projects.items.<id>`. */
 export interface Project {
-  id: string;
-  /** i18n key of the translated title. */
-  titleKey: string;
-  /** i18n key of the translated description. */
-  descriptionKey: string;
-  tags: string[];
-  /** Repository URL. Omit when the code is not public. */
-  githubUrl?: string;
-  /** Live demo URL. Omit when there is no demo online. */
+  id: 'portfolio' | 'linxChallenge';
+  /** Year the project was made, shown next to the title. */
+  year: number;
+  stack: string[];
+  /** Public repository. Omit when the code is not public. */
+  repoUrl?: string;
+  /** Live version. Omit when nothing is online. */
   liveUrl?: string;
 }
 
-/** A spoken language badge in the About section. */
+/** A spoken language. Name and level live under `about.languages.<id>`. */
 export interface SpokenLanguage {
-  /** i18n key under `about.languages`. */
-  key: string;
-  /** i18n key under `about.levels`. */
-  levelKey: string;
+  id: 'portuguese' | 'italian' | 'english' | 'spanish';
+}
+
+/** A way to reach me, shown in the contact section. */
+export interface ContactChannel {
+  /** Key under `contact.channels` for the visible label. */
+  id: 'email' | 'linkedin' | 'github';
+  href: string;
+  /** Human-readable form of the link. */
+  display: string;
 }

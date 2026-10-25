@@ -1,29 +1,24 @@
-import type { Experience } from '../types';
+import type { Job } from '../types';
 
-/** Work history, most recent first. Text content lives in the i18n files. */
-export const experience: Experience[] = [
+/** Work history, most recent first. */
+export const jobs: Job[] = [
   {
     id: 'linx',
     company: 'Linx Sistemas e Consultoria',
-    role: 'Junior → Mid-Level Software Engineer',
-    period: '2021 – 2026',
-    locationKey: 'experience.linx.location',
-    descriptionKey: 'experience.linx.description',
+    team: 'Linx Impulse',
+    start: '2021-05',
+    end: '2026-01',
   },
   {
     id: 'lancert',
     company: 'Lancert Infraestrutura e Serviços em TI',
-    role: 'IT Field Technician & Software Developer',
-    period: '2018 – 2021',
-    locationKey: 'experience.lancert.location',
-    descriptionKey: 'experience.lancert.description',
+    start: '2018-01',
+    end: '2021-03',
   },
   {
     id: 'logycware',
     company: 'Logycware',
-    role: 'Full Stack Developer (Internship)',
-    period: '2016 – 2017',
-    locationKey: 'experience.logycware.location',
-    descriptionKey: 'experience.logycware.description',
+    start: '2016-01',
+    end: '2017-12',
   },
 ];
