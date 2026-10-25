@@ -7,6 +7,19 @@ import type { Project } from '../types';
  */
 export const projects: Project[] = [
   {
+    id: 'virgit',
+    year: 2026,
+    stack: ['React', 'TypeScript', 'Supabase', 'LLM API', 'Netlify'],
+    liveUrl: 'https://virgit.netlify.app/',
+    privateCode: true,
+  },
+  {
+    id: 'hubLife',
+    year: 2026,
+    stack: ['React', 'TypeScript', 'Supabase', 'Gemini API', 'Vercel'],
+    privateCode: true,
+  },
+  {
     id: 'portfolio',
     year: 2026,
     stack: ['Vue 3', 'TypeScript', 'vue-i18n', 'Vite', 'GitHub Actions'],

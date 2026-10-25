@@ -119,6 +119,14 @@
     "code": "Code",
     "live": "Live",
     "items": {
+      "virgit": {
+        "title": "VirgIT · lesson platform",
+        "description": "Web app built for a private Italian teacher and her students: a lesson calendar with drag-and-drop rescheduling and recurring lessons, lesson requests limited by her availability rules, student invites, homework with corrections, private materials, chat, in-app notifications and vocabulary review with spaced repetition. It also has an AI assistant, by text or voice, that answers her questions using the site documentation and can carry out tasks such as adding a student or sending homework."
+      },
+      "hubLife": {
+        "title": "Hub Life · personal life dashboard",
+        "description": "The app I use every day to run my routine. It syncs steps, water and sleep from my smartwatch (Samsung Health) and weight from a smart scale, then updates my daily targets. The Gemini API estimates calories and macros from meal photos and turns voice messages into entries, including monthly expenses in euros and reais. Supabase keeps only the last 90 days; older data is archived as files in a GitHub repository."
+      },
       "portfolio": {
         "title": "This portfolio",
         "description": "Single-page site in Vue 3 and TypeScript, translated into English, Italian and Portuguese with vue-i18n. The repository list below is loaded live from the GitHub REST API. Built and deployed to GitHub Pages by GitHub Actions."
@@ -138,7 +146,8 @@
       "updated": "Updated",
       "noDescription": "No description.",
       "stars": "stars"
-    }
+    },
+    "privateCode": "Private code"
   },
   "workflow": {
     "title": "How I work",
