@@ -41,7 +41,8 @@
     "summary": "Quasi cinque anni in Linx con Vue.js e JavaScript, integrando motore di ricerca, vetrine personalizzate e ads nei siti di grandi retailer in Brasile.",
     "availability": "Disponibile in presenza o ibrido tra Torino, Alessandria e Milano, da remoto, e al trasferimento per la posizione giusta.",
     "primaryAction": "Contattami",
-    "secondaryAction": "Vedi i progetti"
+    "secondaryAction": "Vedi i progetti",
+    "cvAction": "Scarica il CV (PDF)"
   },
   "about": {
     "title": "Chi sono",
