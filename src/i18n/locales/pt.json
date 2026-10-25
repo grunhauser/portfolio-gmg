@@ -121,7 +121,7 @@
     "items": {
       "virgit": {
         "title": "VirgIT · plataforma de aulas",
-        "description": "Web app feito para uma professora particular de italiano e os alunos dela: agenda de aulas com remarcação arrastando e aulas recorrentes, pedidos de aula limitados pelas regras de disponibilidade dela, convite de alunos, tarefas com correção, materiais privados, chat, avisos internos e revisão de vocabulário com repetição espaçada."
+        "description": "Web app feito para uma professora particular de italiano e os alunos dela: agenda de aulas com remarcação arrastando e aulas recorrentes, pedidos de aula limitados pelas regras de disponibilidade dela, convite de alunos, tarefas com correção, materiais privados, chat, avisos internos e revisão de vocabulário com repetição espaçada. Também tem um assistente de IA, por texto ou áudio, que responde às dúvidas dela usando a documentação do site e executa tarefas como cadastrar um aluno ou enviar uma atividade."
       },
       "hubLife": {
         "title": "Hub Life · painel pessoal",

@@ -121,7 +121,7 @@
     "items": {
       "virgit": {
         "title": "VirgIT · lesson platform",
-        "description": "Web app built for a private Italian teacher and her students: a lesson calendar with drag-and-drop rescheduling and recurring lessons, lesson requests limited by her availability rules, student invites, homework with corrections, private materials, chat, in-app notifications and vocabulary review with spaced repetition."
+        "description": "Web app built for a private Italian teacher and her students: a lesson calendar with drag-and-drop rescheduling and recurring lessons, lesson requests limited by her availability rules, student invites, homework with corrections, private materials, chat, in-app notifications and vocabulary review with spaced repetition. It also has an AI assistant, by text or voice, that answers her questions using the site documentation and can carry out tasks such as adding a student or sending homework."
       },
       "hubLife": {
         "title": "Hub Life · personal life dashboard",

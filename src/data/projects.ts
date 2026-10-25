@@ -9,7 +9,7 @@ export const projects: Project[] = [
   {
     id: 'virgit',
     year: 2026,
-    stack: ['React', 'TypeScript', 'Supabase', 'Netlify'],
+    stack: ['React', 'TypeScript', 'Supabase', 'LLM API', 'Netlify'],
     liveUrl: 'https://virgit.netlify.app/',
     privateCode: true,
   },
@@ -17,7 +17,6 @@ export const projects: Project[] = [
     id: 'hubLife',
     year: 2026,
     stack: ['React', 'TypeScript', 'Supabase', 'Gemini API', 'Vercel'],
-    liveUrl: 'https://hub-life-vert.vercel.app/',
     privateCode: true,
   },
   {
