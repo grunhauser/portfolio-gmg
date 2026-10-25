@@ -39,7 +39,7 @@
     "eyebrow": "Sviluppatore front-end · Piemonte, Italia",
     "headline": "Sviluppo front-end per l'e-commerce e li collego alle API che li alimentano.",
     "summary": "Quasi cinque anni in Linx con Vue.js e JavaScript, integrando motore di ricerca, vetrine personalizzate e ads nei siti di grandi retailer in Brasile.",
-    "availability": "Disponibile per ruoli ibridi in Piemonte e Lombardia, o da remoto in Europa.",
+    "availability": "Disponibile in presenza o ibrido tra Torino, Alessandria e Milano, da remoto, e al trasferimento per la posizione giusta.",
     "primaryAction": "Contattami",
     "secondaryAction": "Vedi i progetti"
   },
@@ -66,7 +66,7 @@
       }
     },
     "educationTitle": "Formazione",
-    "education": "Tecnico informatico, Università di Santa Cruz do Sul (UNISC), 2016 – 2018"
+    "education": "Tecnico informatico, Università di Santa Cruz do Sul (UNISC), 2015 – 2016"
   },
   "experience": {
     "title": "Esperienza",
@@ -84,21 +84,23 @@
         ]
       },
       "lancert": {
-        "role": "Tecnico IT e sviluppatore",
+        "role": "Co-titolare · Sviluppatore Web e Tecnico IT",
         "location": "Brasile",
         "highlights": [
-          "Supporto e consulenza IT per Linux, Windows Server e reti.",
-          "Software web su misura in PHP, JavaScript, HTML e CSS.",
-          "Integrazioni tra i sistemi dei clienti."
+          "Sviluppo di siti web per PMI (JavaScript, HTML, CSS), tra cui quelli di un'azienda di trasporto passeggeri e di un'azienda di pubblicità outdoor.",
+          "Modulo di contatto in PHP con invio email via SMTP, per ricevere le richieste di preventivo dal sito.",
+          "Script di avvio per thin client in uno studio di contabilità: apertura automatica del gestionale, con accesso amministrativo protetto da password.",
+          "Assistenza tecnica e consulenza su Linux, Windows Server e reti aziendali."
         ]
       },
       "logycware": {
-        "role": "Sviluppatore full stack (stage)",
+        "role": "Sviluppatore Web (stage)",
         "location": "Brasile",
         "highlights": [
-          "Sviluppo full stack con ASPX, PHP e JavaScript.",
-          "Dati su database Firebird e MySQL.",
-          "Supporto tecnico ai clienti."
+          "Marketplace nazionale di spazi pubblicitari outdoor (OOH): ricerca degli impianti per regione e contatto con le concessionarie. Dati su Firebird: query SQL con JOIN multipli e stored procedure.",
+          "Integrazione con Google Maps API: marker degli impianti e mappa di calore con il numero di punti al passaggio del mouse.",
+          "Sito di un istituto di formazione per la vendita di corsi, con integrazione SOAP al web service delle Poste brasiliane (Correios) per le modalità di spedizione (PHP, MySQL).",
+          "Manutenzione di un e-commerce legacy in ASP.NET (ASPX), con layout basato su tabelle HTML e alcune parti in PHP."
         ]
       }
     }

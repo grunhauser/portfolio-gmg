@@ -39,7 +39,7 @@
     "eyebrow": "Desenvolvedor front-end · Piemonte, Itália",
     "headline": "Desenvolvo front-ends de e-commerce e conecto eles às APIs por trás.",
     "summary": "Quase cinco anos na Linx com Vue.js e JavaScript, integrando busca, vitrines personalizadas e anúncios nos sites de grandes varejistas no Brasil.",
-    "availability": "Aberto a vagas híbridas no Piemonte e na Lombardia, ou remotas na Europa.",
+    "availability": "Aberto a vagas presenciais ou híbridas entre Turim, Alessandria e Milão, remotas, e a mudança de cidade pela vaga certa.",
     "primaryAction": "Entrar em contato",
     "secondaryAction": "Ver projetos"
   },
@@ -66,7 +66,7 @@
       }
     },
     "educationTitle": "Formação",
-    "education": "Técnico em Informática, Universidade de Santa Cruz do Sul (UNISC), 2016 – 2018"
+    "education": "Técnico em Informática, Universidade de Santa Cruz do Sul (UNISC), 2015 – 2016"
   },
   "experience": {
     "title": "Experiência",
@@ -84,21 +84,23 @@
         ]
       },
       "lancert": {
-        "role": "Técnico de campo e desenvolvedor",
+        "role": "Sócio-proprietário · Desenvolvedor Web e Técnico de TI",
         "location": "Brasil",
         "highlights": [
-          "Suporte e consultoria de TI em Linux, Windows Server e redes.",
-          "Software web sob medida em PHP, JavaScript, HTML e CSS.",
-          "Integrações entre sistemas de clientes."
+          "Sites para pequenas e médias empresas (JavaScript, HTML, CSS), entre eles os de uma empresa de transporte de passageiros e de uma empresa de publicidade outdoor.",
+          "Formulário de contato em PHP com envio de e-mail via SMTP, para receber pedidos de orçamento pelo site.",
+          "Scripts de inicialização para thin clients num escritório de contabilidade: o sistema abre sozinho, com acesso administrativo protegido por senha.",
+          "Suporte e consultoria de TI em Linux, Windows Server e redes corporativas."
         ]
       },
       "logycware": {
-        "role": "Desenvolvedor full stack (estágio)",
+        "role": "Desenvolvedor Web (estágio)",
         "location": "Brasil",
         "highlights": [
-          "Desenvolvimento full stack com ASPX, PHP e JavaScript.",
-          "Dados em bancos Firebird e MySQL.",
-          "Suporte técnico a clientes."
+          "Marketplace nacional de espaços de publicidade outdoor (OOH): busca por região e contato com as empresas. Dados em Firebird com queries SQL de vários JOINs e stored procedures.",
+          "Integração com a Google Maps API: marcadores e mapa de calor com o número de pontos ao passar o mouse.",
+          "Site de venda de cursos de um instituto, com integração SOAP ao web service dos Correios para as formas de envio (PHP, MySQL).",
+          "Manutenção de um e-commerce legado em ASP.NET (ASPX), com layout em tabelas HTML e partes em PHP."
         ]
       }
     }
