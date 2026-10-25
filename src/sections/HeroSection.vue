@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
-import { contactChannels } from '../data/profile';
+import { CV_URL, contactChannels } from '../data/profile';
 import { highlightJson } from '../utils/highlightJson';
 
 /**
  * First screen: who I am, what I do and where I can work, plus the one
- * primary action (contact). On wide screens a JSON "API response" panel
- * repeats the key facts in a developer-friendly format.
+ * primary action (contact), with projects and the CV download as secondary
+ * ones. On wide screens a JSON "API response" panel repeats the key facts
+ * in a developer-friendly format.
  */
 const { t } = useI18n();
 
@@ -16,7 +17,7 @@ const profile = {
   role: 'Front-end Developer',
   focus: ['Vue.js', 'JavaScript', 'API integration'],
   location: 'Piedmont, IT',
-  openTo: ['hybrid', 'remote (EU)'],
+  openTo: ['on-site', 'hybrid', 'remote', 'relocation'],
 };
 
 /** The profile as colored JSON tokens. It never changes, so it is computed once. */
@@ -42,6 +43,7 @@ const profileLinks = contactChannels.filter((channel) => channel.id !== 'email')
         <div class="hero__actions">
           <a href="#contact" class="button button--primary">{{ t('hero.primaryAction') }}</a>
           <a href="#projects" class="button">{{ t('hero.secondaryAction') }}</a>
+          <a :href="CV_URL" class="button" download>{{ t('hero.cvAction') }}</a>
         </div>
 
         <ul class="hero__links">
