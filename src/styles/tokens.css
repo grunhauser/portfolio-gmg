@@ -54,4 +54,7 @@
   --header-height: 4rem;
   --focus-ring: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-accent);
   --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 600ms;
+  --color-accent-glow: rgb(255 122 89 / 0.14);
 }

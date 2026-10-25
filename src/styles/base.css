@@ -15,7 +15,10 @@ html {
 
 body {
   margin: 0;
-  background: var(--color-bg);
+  /* A faint dot grid behind everything gives the dark page some depth. */
+  background:
+    radial-gradient(circle at 1px 1px, rgb(255 255 255 / 0.045) 1px, transparent 0) 0 0 / 24px 24px,
+    var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
   font-size: var(--text-base);
@@ -157,4 +160,56 @@ input {
 
 .link:hover {
   color: var(--color-accent-hover);
+}
+
+/* Scroll reveal, driven by the v-reveal directive. */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity var(--duration-slow) ease-out,
+    transform var(--duration-slow) ease-out;
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Mouse-following glow, driven by the v-spotlight directive. */
+.spotlight {
+  position: relative;
+  isolation: isolate;
+}
+
+.spotlight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: radial-gradient(
+    320px circle at var(--spot-x, 50%) var(--spot-y, 0%),
+    var(--color-accent-glow),
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity var(--duration-base);
+  pointer-events: none;
+}
+
+.spotlight:hover::before {
+  opacity: 1;
+}
+
+/* Tags light up on hover so skills and stacks feel touchable. */
+.tag {
+  transition:
+    border-color var(--duration-fast),
+    color var(--duration-fast);
+}
+
+.tag:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text);
 }

@@ -14,7 +14,7 @@ const { t } = useI18n();
       <SectionHeading path="projects" heading-id="projects-title" :title="t('projects.title')" />
 
       <ul class="projects">
-        <li v-for="project in projects" :key="project.id" class="project">
+        <li v-for="project in projects" :key="project.id" v-spotlight class="project">
           <div class="project__header">
             <h3 class="project__title">{{ t(`projects.items.${project.id}.title`) }}</h3>
             <span class="project__year">{{ project.year }}</span>
@@ -68,6 +68,17 @@ const { t } = useI18n();
   border-left: 3px solid var(--color-accent);
   border-radius: var(--radius-md);
   background: var(--color-surface);
+  transition:
+    transform var(--duration-base),
+    border-color var(--duration-base),
+    box-shadow var(--duration-base);
+}
+
+.project:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-border-strong);
+  border-left-color: var(--color-accent);
+  box-shadow: 0 12px 32px -16px rgb(255 122 89 / 0.35);
 }
 
 .project__header {

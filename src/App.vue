@@ -26,12 +26,12 @@ useKeyboardShortcut('k', () => (paletteOpen.value = !paletteOpen.value));
 
   <main id="main">
     <HeroSection />
-    <AboutSection />
-    <ExperienceSection />
-    <SkillsSection />
-    <ProjectsSection />
-    <WorkflowSection />
-    <ContactSection />
+    <AboutSection v-reveal />
+    <ExperienceSection v-reveal />
+    <SkillsSection v-reveal />
+    <ProjectsSection v-reveal />
+    <WorkflowSection v-reveal />
+    <ContactSection v-reveal />
   </main>
 
   <SiteFooter />
