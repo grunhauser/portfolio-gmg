@@ -150,7 +150,23 @@
       "noDescription": "Sem descrição.",
       "stars": "estrelas"
     },
-    "privateCode": "Código privado"
+    "privateCode": "Código privado",
+    "screens": {
+      "virgitCalendar": "Semana da professora: aulas, pedidos dos alunos esperando aprovação e dias de folga.",
+      "virgitAssistant": "Assistente de IA: responde sobre a agenda e prepara ações que a professora confirma.",
+      "virgitMobile": "Visão do dia no celular.",
+      "hubLifeHome": "Tela Hoje: próximo passo, calorias restantes, água e passos.",
+      "hubLifeFood": "Registro de comida com macros; dá para adicionar uma refeição por foto.",
+      "hubLifeAssistant": "Assistente: registra água, comida e itens de compra por texto ou voz."
+    },
+    "viewer": {
+      "open": "Ver telas",
+      "demoData": "Telas com dados de demonstração.",
+      "close": "Fechar",
+      "previous": "Tela anterior",
+      "next": "Próxima tela",
+      "counter": "{current} de {total}"
+    }
   },
   "workflow": {
     "title": "Como trabalho",

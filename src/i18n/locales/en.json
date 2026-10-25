@@ -150,7 +150,23 @@
       "noDescription": "No description.",
       "stars": "stars"
     },
-    "privateCode": "Private code"
+    "privateCode": "Private code",
+    "screens": {
+      "virgitCalendar": "Teacher's week: lessons, student requests waiting for approval and days off.",
+      "virgitAssistant": "AI assistant: answers questions about the schedule and prepares actions the teacher confirms.",
+      "virgitMobile": "Day view on a phone.",
+      "hubLifeHome": "Today screen: next step, calories left, water and steps.",
+      "hubLifeFood": "Food log with macros; a meal can also be added from a photo.",
+      "hubLifeAssistant": "Assistant: logs water, food and shopping items from text or voice."
+    },
+    "viewer": {
+      "open": "View screens",
+      "demoData": "Screenshots with demo data.",
+      "close": "Close",
+      "previous": "Previous screenshot",
+      "next": "Next screenshot",
+      "counter": "{current} of {total}"
+    }
   },
   "workflow": {
     "title": "How I work",

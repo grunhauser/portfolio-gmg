@@ -3,7 +3,8 @@ import type { Project } from '../types';
 /**
  * Projects, most relevant first.
  * To add one: append an entry here and add `title` and `description`
- * under `projects.items.<id>` in every locale file.
+ * under `projects.items.<id>` in every locale file. Screenshots go in
+ * `public/work/`, with a caption under `projects.screens.<screenId>`.
  */
 export const projects: Project[] = [
   {
@@ -12,12 +13,22 @@ export const projects: Project[] = [
     stack: ['React', 'TypeScript', 'Supabase', 'LLM API', 'Netlify'],
     liveUrl: 'https://virgit.netlify.app/',
     privateCode: true,
+    screens: [
+      { id: 'virgitCalendar', file: 'virgit-calendar.webp' },
+      { id: 'virgitAssistant', file: 'virgit-assistant.webp' },
+      { id: 'virgitMobile', file: 'virgit-mobile.webp', mobile: true },
+    ],
   },
   {
     id: 'hubLife',
     year: 2026,
     stack: ['React', 'TypeScript', 'Supabase', 'Gemini API', 'Vercel'],
     privateCode: true,
+    screens: [
+      { id: 'hubLifeHome', file: 'hublife-home.webp', mobile: true },
+      { id: 'hubLifeFood', file: 'hublife-food.webp', mobile: true },
+      { id: 'hubLifeAssistant', file: 'hublife-assistant.webp', mobile: true },
+    ],
   },
   {
     id: 'portfolio',

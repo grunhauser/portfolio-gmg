@@ -38,6 +38,24 @@ Search ignores case and accents (`normalize('NFD')`).
 The `open` state lives in `App.vue` because two things open the menu:
 the header button and the global shortcut (`useKeyboardShortcut`).
 
+## Project screenshots
+
+Screenshots live in `public/work/` as WebP (desktop 1600px wide, phone
+600px), listed per project in `src/data/projects.ts` with a caption under
+`projects.screens.<id>`. They use demo data; names of real people are
+blurred before the file is added. `ScreenshotViewer.vue` reuses the
+`<dialog>` approach above and adds arrow-key navigation. Images in the
+cards load lazily (`loading="lazy"`).
+
+## Motion
+
+Two small directives in `src/directives/` add the motion: `v-reveal` fades a
+section in the first time it scrolls into view (IntersectionObserver), and
+`v-spotlight` writes the mouse position into CSS variables so a card can
+show a glow under the pointer. Both are pure progressive enhancement:
+without them the page looks the same, only static, and
+`prefers-reduced-motion` turns the animations off.
+
 ## Live GitHub repositories
 
 `useGithubRepos` calls the public GitHub REST API:
