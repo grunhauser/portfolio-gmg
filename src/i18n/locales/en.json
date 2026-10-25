@@ -119,6 +119,14 @@
     "code": "Code",
     "live": "Live",
     "items": {
+      "virgit": {
+        "title": "VirgIT · lesson platform",
+        "description": "Web app built for a private Italian teacher and her students: a lesson calendar with drag-and-drop rescheduling and recurring lessons, lesson requests limited by her availability rules, student invites, homework with corrections, private materials, chat, in-app notifications and vocabulary review with spaced repetition."
+      },
+      "hubVida": {
+        "title": "Hub Vida",
+        "description": "Personal organizer for everyday life (lists, monthly expenses and meals) with AI features powered by the Gemini API."
+      },
       "portfolio": {
         "title": "This portfolio",
         "description": "Single-page site in Vue 3 and TypeScript, translated into English, Italian and Portuguese with vue-i18n. The repository list below is loaded live from the GitHub REST API. Built and deployed to GitHub Pages by GitHub Actions."
@@ -138,7 +146,8 @@
       "updated": "Updated",
       "noDescription": "No description.",
       "stars": "stars"
-    }
+    },
+    "privateCode": "Private code"
   },
   "workflow": {
     "title": "How I work",

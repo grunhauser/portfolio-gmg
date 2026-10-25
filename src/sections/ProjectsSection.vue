@@ -42,6 +42,9 @@ const { t } = useI18n();
             >
               {{ t('projects.live') }} ↗
             </a>
+            <span v-if="project.privateCode" class="project__private">{{
+              t('projects.privateCode')
+            }}</span>
           </p>
         </li>
       </ul>
@@ -98,8 +101,15 @@ const { t } = useI18n();
   margin-top: var(--space-5);
 }
 
+.project__private {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
 .project__links {
   display: flex;
+  align-items: baseline;
   gap: var(--space-5);
   margin-top: var(--space-5);
   font-size: var(--text-sm);

@@ -26,7 +26,7 @@ export interface SkillGroup {
 
 /** A portfolio project. Title and description live under `projects.items.<id>`. */
 export interface Project {
-  id: 'portfolio' | 'linxChallenge';
+  id: 'virgit' | 'hubVida' | 'portfolio' | 'linxChallenge';
   /** Year the project was made, shown next to the title. */
   year: number;
   stack: string[];
@@ -34,6 +34,8 @@ export interface Project {
   repoUrl?: string;
   /** Live version. Omit when nothing is online. */
   liveUrl?: string;
+  /** True when the source code is private; the card says so instead of linking to it. */
+  privateCode?: boolean;
 }
 
 /** A spoken language. Name and level live under `about.languages.<id>`. */

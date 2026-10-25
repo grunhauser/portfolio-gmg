@@ -119,6 +119,14 @@
     "code": "Codice",
     "live": "Online",
     "items": {
+      "virgit": {
+        "title": "VirgIT · piattaforma per lezioni",
+        "description": "Web app realizzata per un'insegnante privata di italiano e i suoi studenti: calendario delle lezioni con spostamento trascinando e lezioni ricorrenti, richieste di lezione limitate dalle sue regole di disponibilità, inviti agli studenti, compiti con correzione, materiali privati, chat, avvisi interni e ripasso del vocabolario con ripetizione dilazionata."
+      },
+      "hubVida": {
+        "title": "Hub Vida",
+        "description": "Organizer personale per la vita di tutti i giorni (liste, spese del mese e pasti) con funzioni di IA basate sull'API di Gemini."
+      },
       "portfolio": {
         "title": "Questo portfolio",
         "description": "Sito a pagina singola in Vue 3 e TypeScript, tradotto in inglese, italiano e portoghese con vue-i18n. L'elenco dei repository qui sotto è caricato in tempo reale dall'API REST di GitHub. Build e pubblicazione su GitHub Pages con GitHub Actions."
@@ -138,7 +146,8 @@
       "updated": "Aggiornato",
       "noDescription": "Nessuna descrizione.",
       "stars": "stelle"
-    }
+    },
+    "privateCode": "Codice privato"
   },
   "workflow": {
     "title": "Come lavoro",
