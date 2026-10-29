@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
 import { CV_URL, contactChannels } from '../data/profile';
+import { countEvent } from '../utils/analytics';
 import { highlightJson } from '../utils/highlightJson';
 
 /**
@@ -43,7 +44,7 @@ const profileLinks = contactChannels.filter((channel) => channel.id !== 'email')
         <div class="hero__actions">
           <a href="#contact" class="button button--primary">{{ t('hero.primaryAction') }}</a>
           <a href="#projects" class="button">{{ t('hero.secondaryAction') }}</a>
-          <a :href="CV_URL" class="button" download>{{ t('hero.cvAction') }}</a>
+          <a :href="CV_URL" class="button" download @click="countEvent('cv-download')">{{ t('hero.cvAction') }}</a>
         </div>
 
         <ul class="hero__links">
